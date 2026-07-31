@@ -65,7 +65,8 @@ The dataset contains information related to:
 - Customers
 - Products
 - Product Categories
-- Geography
+- Product SubCategories
+- Territory
 - Calendar
 - Product Returns
 
@@ -92,7 +93,7 @@ Power Query was used to clean, transform, and prepare the data before analysis.
 
 # Data Modeling
 
-Mostly star schema was implemented to improve report performance and simplify analytical calculations.
+A mostly star schema was implemented to improve report performance and simplify analytical calculations.
 
 ### Model Highlights
 
@@ -145,7 +146,7 @@ Provides an executive overview of overall business performance.
 
 ### Highlights
 
-- Revenue, COGS and Profit KPIs
+- Revenue, COGS, and Profit KPIs
 - Profit Margin
 - Revenue Trend by Year and Quarter
 - Revenue by Product Color
